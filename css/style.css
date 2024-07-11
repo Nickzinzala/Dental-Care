@@ -1,0 +1,1276 @@
+html,
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif !important;
+}
+@font-face {
+  font-family: "peachi";
+  src: url("../font/Fontspring-DEMO-peachi-medium.otf");
+  font-style: normal;
+}
+@font-face {
+  font-family: "peachi-regular";
+  src: url("../font/Fontspring-DEMO-peachi-regular.otf");
+  font-style: normal;
+}
+/* header css */
+.navbar-toggler-icon {
+  background-image: url("../image/icon-menu.png") !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.navbar-toggler {
+  border: unset !important;
+}
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow: none !important;
+}
+nav.navbar.navbar-expand-lg {
+  padding-top: 15px;
+}
+.header-logo {
+  max-width: 90px;
+  height: auto;
+}
+p {
+  margin: 0 !important;
+}
+a.nav-link.active {
+  font-size: 16px;
+}
+a.nav-link {
+  font-size: 16px;
+  color: black;
+}
+ul.navbar-nav {
+  gap: 21px;
+  display: flex;
+  align-items: center;
+}
+.sub-button a {
+  text-decoration: none;
+}
+button.btn.btn-primary {
+  background-color: #0d7d8c;
+  color: #ffffff;
+  padding: 10px 25px 10px 25px;
+  border-radius: 40px;
+  border-color: #2a93b6;
+  display: flex;
+  gap: 28px;
+  align-items: center;
+  font-size: 14px;
+  transition: all 0.3s ease-in;
+}
+button.btn.btn-primary:hover {
+  background-color: white;
+  color: black;
+}
+header {
+  position: relative;
+  z-index: 1;
+  background: #f3fbff;
+}
+/* header css end */
+/* banner-wrapper section css */
+.banner-wrapper {
+  background: url(../image/back-image.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 910px;
+  position: relative;
+  top: -110px;
+  z-index: 0;
+}
+.spcing {
+  padding-top: 270px;
+  padding-bottom: 130px;
+}
+.dental-heding p {
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+  word-spacing: 3px;
+  letter-spacing: 3px;
+  padding-bottom: 20px;
+}
+.dental-heding h1 {
+  font-size: 55px;
+  line-height: 67px;
+  padding-bottom: 30px;
+  font-family: "peachi";
+}
+.banner-image img {
+  width: 100%;
+  height: 745px;
+  object-fit: contain;
+  margin-top: -70px;
+}
+.dental-heding {
+  padding-top: 100px;
+}
+/* banner-wrapper section end */
+/* health-wrapper */
+.text-effect {
+  position: relative;
+}
+.text-effect::after {
+  position: absolute;
+  content: "";
+  top: -21px;
+  right: -86px;
+  left: auto;
+  background: url(../image/text-effect.svg);
+  width: 80px;
+  height: 80px;
+  background-repeat: no-repeat;
+  transform: rotateZ(340deg);
+}
+.right-arrow {
+  width: 2%;
+}
+section.health-wrapper {
+  padding-bottom: 68px;
+  margin-top: 90px;
+}
+.sub-title-heding h2 {
+  text-align: center;
+  font-size: 50px;
+  line-height: 66px;
+  font-family: "peachi";
+}
+.sub-title-heding h2 span {
+  font-size: 80px;
+  font-weight: 500;
+  color: black;
+}
+.sub-title-heding h2 a {
+  color: #0d7d8c !important;
+}
+.about-your {
+  text-align: center;
+  margin-top: 87px;
+  position: relative;
+}
+.about-your h2 {
+  font-size: 27px;
+  color: #25757e;
+  padding-bottom: 10px;
+  font-family: "peachi";
+  margin: 0;
+}
+.vector-smile {
+  width: 99%;
+  height: 64px;
+  position: absolute;
+  top: 61px;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.member-image {
+  width: 120px;
+  height: 120px;
+  padding: 34px;
+  border-radius: 68px;
+  margin-bottom: 30px;
+  background: #eef9fa;
+}
+p.clinical-wrapper {
+  color: #454849;
+  line-height: 25px;
+  font-size: 20px;
+}
+/* health-wrapper end */
+/* new-dentist-deteils css */
+.new-dentist-wrapper {
+  background: url("../image/background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.awards-image img {
+  font-size: 40px;
+  padding: 10px 14px;
+  border-radius: 50px;
+  background: white;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 6px 0px rgb(0 0 0 / 15%);
+  object-fit: contain;
+}
+section.new-dentist-wrapper {
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+.sub-title-heding-text h2 {
+  font-size: 55px;
+  font-weight: 500;
+  line-height: 71px;
+  font-family: "peachi";
+}
+.sub-title-heding-text h2 span {
+  font-size: 55px;
+  line-height: 61px;
+  color: #0c7d8c;
+}
+.education-awards h2 {
+  font-size: 32px;
+  font-family: "peachi";
+}
+.education-awards span {
+  color: #0c7785;
+}
+.dentist-deteils p {
+  color: #535558;
+  font-size: 16px;
+  font-weight: 400;
+}
+.awards-deteils p {
+  margin: 0;
+}
+.awards-deteils h5 {
+  font-family: "peachi";
+}
+.dentist-image img {
+  width: 100%;
+  height: 668px;
+  margin-top: -42px;
+  object-fit: contain;
+}
+.sub-title {
+  border: 1px solid #819ca0;
+  width: 56%;
+  position: relative;
+  margin-bottom: 14px;
+  margin-top: 14px;
+}
+.sub-title::after {
+  position: absolute;
+  content: "";
+  width: 5px;
+  height: 15px;
+  background-color: #009fb8;
+  margin: 0 auto 0;
+  left: -1%;
+  top: -8px;
+}
+/* new-dentist-deteils css end */
+/* visit-wrapper css */
+.visit-image-wrapper {
+  width: 55%;
+}
+section.visit-wrapper {
+  padding-top: 50px;
+}
+.frist-visit p {
+  padding-top: 15px;
+  font-size: 16px;
+  line-height: 25px;
+}
+.visit-image-wrapper img {
+  width: 90%;
+}
+/* visit-wrapper css end */
+/* our-dental-services-wrapper css */
+.dental-text-effect {
+  position: relative;
+  max-width: 590px;
+  margin: 0 auto;
+}
+.dental-text-effect::after {
+  position: absolute;
+  content: "";
+  top: -10px;
+  right: -85px;
+  left: auto;
+  background: url(../image/text-effect.svg);
+  width: 80px;
+  height: 80px;
+  background-repeat: no-repeat;
+  transform: rotateZ(351deg);
+}
+.dental-services-details h2 {
+  font-size: 50px;
+  font-family: "peachi";
+}
+.dental-services-details {
+  width: 55%;
+}
+.dental-services-details h2 span {
+  font-size: 71px;
+  font-weight: 500;
+  color: #0c7d8c;
+}
+.whether p {
+  padding-top: 15px;
+  font-size: 16px;
+  line-height: 25px;
+}
+.whether p {
+  padding-top: 15px;
+  font-size: 16px;
+  line-height: 25px;
+  padding-bottom: 33px;
+}
+.dental-car {
+  font-size: 25px;
+  border: 1px dotted #cad7dc;
+  border-radius: 50px;
+  margin-bottom: 16px;
+  height: 83px;
+  aspect-ratio: 1;
+}
+.routine-text h3 {
+  font-size: 27px;
+  font-weight: 500;
+  font-family: "peachi";
+}
+.routine-text p {
+  padding-top: 13px;
+  color: #0c7d8c;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.routine-dental {
+  border: 1px solid #00000024;
+  padding: 17px;
+  height: auto;
+  border-radius: 20px;
+  background: white;
+  box-shadow: 0px 0px 18px 0px rgb(12 125 140 / 15%);
+  transition: all 0.3s ease-in;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  width: 100%;
+}
+.routine-dental:hover {
+  border-color: #0c7785;
+}
+.dental-service-first-col {
+  margin-top: 160px;
+}
+.dental-service-second-col {
+  margin-top: 81px;
+}
+.routine-dental img {
+  width: 57%;
+}
+.dental-service-third-col {
+  margin-top: 60px;
+}
+/* our-dental-services-wrapper css end */
+/* client-testimonial-wrapper css */
+.sub-titlee {
+  border: 1px solid #819ca0;
+  width: 56%;
+  position: relative;
+  margin-bottom: 14px;
+  margin-top: 14px;
+}
+.sub-titlee::after {
+  position: absolute;
+  content: "";
+  width: 5px;
+  height: 15px;
+  background-color: #009fb8;
+  margin: 0 auto 0;
+  left: -1%;
+  top: -8px;
+}
+.text-effect-2 {
+  position: relative;
+}
+.text-effect-2::after {
+  position: absolute;
+  content: "";
+  top: -21px;
+  right: -86px;
+  left: auto;
+  background: url(../image/text-effect-2.svg);
+  width: 80px;
+  height: 80px;
+  background-repeat: no-repeat;
+  transform: rotateZ(340deg);
+}
+.client-testimonial-wrapper {
+  background: url(../image/testimonail-back.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.testomonail-heding hr {
+  color: #ffffff;
+  width: 57%;
+  margin-top: 32px;
+}
+.testomonail-heding p {
+  font-size: 16px;
+  color: white;
+  font-weight: 500;
+}
+.testomonail-heding h2 {
+  font-size: 45px;
+  padding-top: 10px;
+  color: white;
+  font-family: "peachi";
+}
+section.client-testimonial-wrapper {
+  padding-top: 220px;
+  padding-bottom: 65px;
+  margin-top: 100px;
+}
+.swiper-wrapper {
+  margin-top: 45px;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide {
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 10px;
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.silder-1 h4 {
+  font-size: 17px;
+  margin: 0;
+}
+.silde-text p {
+  font-size: 16px;
+  padding-top: 20px;
+  padding-bottom: 29px;
+}
+i.fa-solid.fa-star {
+  font-size: 11px;
+  color: #ffbb00;
+}
+.heding-name {
+  line-height: 16px;
+}
+p.date {
+  font-size: 16px;
+}
+.Google {
+  font-size: 20px;
+  color: #277d86;
+  font-weight: 500;
+}
+.silder-image img {
+  width: 100%;
+  height: 55px;
+}
+div#swiper-button {
+  position: relative;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  right: var(--swiper-navigation-sides-offset, 10px);
+  left: auto;
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 30px;
+  height: 60px;
+  width: 60px;
+  background: white;
+  border: none;
+}
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-family: swiper-icons;
+  font-size: 22px !important;
+  text-transform: none !important;
+  letter-spacing: 0;
+  font-variant: initial;
+  line-height: 1;
+  color: #0c7785;
+}
+.swiper-button-prev {
+  padding: 24px;
+  transition: all 0.2s ease-in;
+}
+.swiper-button-next {
+  padding: 24px;
+  transition: all 0.2s ease-in;
+}
+.swiper-button-next:hover {
+  background-color: #83b4bb;
+}
+.swiper-button-prev:hover {
+  background-color: #83b4bb;
+}
+/* client-testimonial-wrapper end */
+/* accepting-insurance-wrapper */
+section.accepting-insurance-wrapper {
+  padding-top: 130px;
+}
+.insurance-image img {
+  width: 100%;
+  margin-top: 39px;
+  border-radius: 21px;
+  height: 550px;
+  object-fit: cover;
+}
+.accepting-name {
+  text-align: center;
+}
+.accepting-name span {
+  color: #0c7785;
+}
+.accepting-name h2 {
+  font-size: 45px;
+  font-family: "peachi";
+}
+.list-item {
+  padding-left: 18px;
+  padding-top: 11px;
+  padding-bottom: 30px;
+}
+.insurance-deteils h5 {
+  font-size: 23px;
+  color: #147c88;
+  font-family: "peachi";
+}
+.list-item li {
+  font-size: 17px;
+  padding: 4px;
+  color: #4e5053;
+  font-weight: 500;
+}
+::marker {
+  color: #147c9b !important;
+}
+.swiper-slide.swiper-img {
+  text-align: center;
+  border: 1px solid #0d7d8c61;
+}
+.swiper-slide.swiper-img {
+  width: 200px !important;
+  height: 81px;
+  margin-right: 6px !important;
+}
+.accepting-name hr {
+  width: 24%;
+  margin: 0 auto;
+  padding-bottom: 18px;
+  margin-top: 22px;
+}
+.swiper.mySwiper-2.swiper-initialized.swiper-horizontal.swiper-backface-hidden {
+  max-width: 85%;
+  margin: 0 auto;
+}
+.swiper.mySwiper-2 {
+  position: relative;
+}
+div#swiper-bundle {
+  position: absolute;
+  width: 100%;
+  top: 60%;
+  left: 0;
+  z-index: 9;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  position: unset !important;
+}
+.swiper-button-prev.\32 :after,
+.swiper-rtl .swiper-button-next:after {
+  content: "prev";
+  color: rgb(255, 255, 255);
+  font-size: 17px !important;
+}
+.swiper-button-next.\31:after,
+.swiper-rtl .swiper-button-prev:after {
+  content: "next";
+  color: rgb(255, 255, 255);
+  font-size: 17px !important;
+}
+.swiper-button-next.\31 {
+  padding: 22px;
+  background: #0c7785;
+  transition: all 0.2s ease-in;
+}
+.swiper-button-next.\31:hover {
+  background: #a7aaab;
+}
+.swiper-button-prev.\32 {
+  padding: 22px;
+  background: #0c7785;
+  transition: all 0.2s ease-in;
+}
+.swiper-button-prev.\32:hover {
+  background: #a7aaab;
+}
+/* accepting-insurance-wrapper end */
+/* certifications-wrapper css */
+.certificaton-card img {
+  width: 70%;
+}
+.certificaton {
+  padding-top: 150px;
+}
+.certifications-wrapper {
+  background: url(../image/background.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section.certifications-wrapper {
+  padding-bottom: 90px;
+  margin-top: 130px;
+  padding-top: 60px;
+}
+.card-certification-first {
+  margin-top: 150px;
+}
+.card-certification-second {
+  margin-top: 100px;
+}
+.card-certification-third {
+  margin-top: 50px;
+}
+.certificaton-card {
+  height: 106px;
+  background-color: #fff;
+  border-radius: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #819ca03b;
+  width: 100%;
+}
+/* certifications-wrapper css end */
+/* conveniently-located-wrapper css */
+section.conveniently-located-wrapper {
+  margin-top: 110px;
+  padding-bottom: 90px;
+}
+.conveniently-text p {
+  font-size: 18px;
+  color: black;
+}
+.sub-title-heding-text.textt {
+  padding-top: 50px;
+}
+ul.conveniently-list-item {
+  padding-top: 17px;
+  padding-left: 17px;
+}
+ul.conveniently-list-item li {
+  color: black;
+  font-weight: 500;
+  padding: 7px;
+}
+iframe {
+  width: 70%;
+  height: 540px;
+  border-radius: 0px 0px 270px 270px;
+  padding-top: 50px;
+}
+/* conveniently-located-wrapper css end */
+/* schedule-wrapper css */
+section.conveniently-located-wrapper::after {
+  position: absolute;
+  content: "";
+  top: -10px;
+  left: 0px;
+  width: 45%;
+  background: #f3fbff;
+  border-radius: 10px 68px 68px 10px;
+  z-index: -10;
+  height: 620px;
+}
+section.conveniently-located-wrapper {
+  position: relative;
+}
+section.conveniently-located-wrapper::before {
+  position: absolute;
+  content: "";
+  top: -10px;
+  right: 0px;
+  width: 45%;
+  background: #f3fbff;
+  border-radius: 68px 10px 10px 68px;
+  z-index: -10;
+  height: 620px;
+}
+.sub-title-borderr {
+  border: 1px solid rgb(12 119 133);
+  width: 78%;
+  margin: 18px auto 0px;
+  position: relative;
+  margin-bottom: 31px;
+}
+.sub-title-borderr::after {
+  position: absolute;
+  content: "";
+  width: 25px;
+  height: 6px;
+  background-color: #009fb8;
+  margin: 0 auto 0;
+  right: 46%;
+  bottom: -3px;
+}
+section.schedule-wrapper {
+  background: #f3fbff;
+  padding-bottom: 190px;
+  padding-top: 140px;
+  margin-top: 113px;
+}
+.visit-deteils-2 {
+  text-align: center;
+}
+.schedule-heding h2 {
+  text-align: center;
+  font-size: 48px;
+  padding-top: 10px;
+  padding-bottom: 1px;
+  font-family: "peachi";
+  line-height: 65px;
+}
+.schedule-heding h2 span {
+  font-size: 48px;
+  color: #0c7785;
+}
+.call-visit {
+  text-align: center;
+}
+i.fa-regular.fa-face-smile {
+  font-size: 85px;
+  color: #fcd477;
+  padding-bottom: 17px;
+}
+.visit-deteils-2 p {
+  font-size: 16px;
+}
+button.btn.btn-warning {
+  border-radius: 50px;
+  background: #fae9bc;
+  border: none;
+  padding: 11px 25px 11px 25px;
+  display: flex;
+  gap: 28px;
+  align-items: center;
+  font-size: 14px;
+  transition: all 0.3s ease-in;
+}
+button.btn.btn-warning:hover {
+  background-color: #fcd477;
+}
+.frist-image img {
+  width: 100%;
+  height: 460px;
+  margin-top: -241px;
+  border-radius: 210px 210px 50px 50px;
+  object-fit: cover;
+}
+.second-image img {
+  width: 100%;
+  height: 420px;
+  border-radius: 210px 210px 50px 50px;
+  margin-top: -100px;
+  object-fit: cover;
+}
+.question h2 {
+  font-family: "peachi";
+  font-size: 23px;
+  padding-bottom: 15px;
+}
+.question p {
+  font-size: 13px;
+  line-height: 31px;
+  transition: all 0.3s ease-in !important;
+}
+i.fa-solid.fa-tooth {
+  font-size: 27px;
+}
+i.fa-solid.fa-phone-volume {
+  font-size: 27px;
+}
+.question p a {
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 30px;
+  color: white;
+}
+i.fa-brands.fa-facebook {
+  font-size: 17px;
+  background: #3a4052;
+  color: white;
+  padding: 10px;
+  border-radius: 53px;
+  transition: all 0.3s ease-in;
+}
+i.fa-brands.fa-facebook:hover {
+  background-color: #0d7d8c;
+}
+.fa-brands.fa-twitter {
+  font-size: 17px;
+  background: #3a4052;
+  color: white;
+  padding: 10px;
+  border-radius: 53px;
+  transition: all 0.3s ease-in;
+}
+.fa-brands.fa-twitter:hover {
+  background-color: #0d7d8c;
+}
+.fa-brands.fa-linkedin {
+  font-size: 17px;
+  background: #3a4052;
+  color: white;
+  padding: 10px;
+  border-radius: 53px;
+  transition: all 0.3s ease-in;
+}
+.fa-brands.fa-linkedin:hover {
+  background-color: #0d7d8c;
+}
+.footer-list p {
+  font-size: 15px;
+  line-height: 31px;
+}
+.container.line hr {
+  margin-top: 48px;
+}
+.copyright p {
+  text-align: center;
+  font-size: 13px;
+  padding-top: 20px;
+}
+footer {
+  padding-top: 97px;
+  padding-bottom: 25px;
+  background-color: #232940;
+  color: white;
+}
+.footer-logo {
+  height: auto;
+  max-width: 90px;
+  margin-bottom: 30px;
+}
+.footer-list p a {
+  font-size: 14px;
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s ease-in;
+}
+.footer-list p a:hover {
+  color: #9db2ff;
+}
+.question p a {
+   transition: all 0.3s ease-in;
+}
+.question p a:hover {
+  color: #9db2ff;
+}
+.office-heding p {
+  transition: all 0.3s ease-in;
+}
+.office-heding p:hover {
+  color: #9db2ff;
+}
+.all p a {
+  text-decoration: none;
+}
+#scrollToTopBtn {
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  display: none;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  cursor: pointer;
+  z-index: 4px;
+  margin-bottom: 31px;
+}
+/* footer css end*/
+/* media query */
+@media (max-width: 1400px) {
+  button.btn.btn-primary {
+    font-size: 12px;
+  }
+  button.btn.btn-warning {
+    font-size: 12px;
+  }
+}
+@media (max-width: 1199px) {
+  ul.navbar-nav {
+    gap: 2px;
+  }
+  section.conveniently-located-wrapper::before {
+    display: none;
+  }
+  section.conveniently-located-wrapper::after {
+    display: none;
+  }
+  .located-background {
+    background: #f2f8fb;
+    padding: 20px 30px 40px 30px;
+    border-radius: 38px 38px 38px 38px;
+  }
+  .located-backgroundd {
+    background: #f2f8fb;
+    padding: 10px 20px 40px 20px;
+    border-radius: 38px 38px 38px 38px;
+  }
+}
+@media (max-width: 991px) {
+  ul.navbar-nav {
+    background: white;
+    padding: 20px;
+    border-radius: 7px;
+    margin-top: 20px;
+  }
+  .insurance-image img {
+    width: 100%;
+    margin-top: 39px;
+    border-radius: 21px;
+    height: 320px;
+    object-fit: cover;
+  }
+  ul.navbar-nav {
+    gap: 13px;
+    text-align: center;
+  }
+  .visit-image-wrapper {
+    width: 100%;
+  }
+  .schedule-heding h2 span {
+    font-size: 32px;
+    color: #0c7785;
+  }
+  .schedule-heding h2 {
+    font-size: 28px;
+  }
+  section.visit-wrapper {
+    padding-top: 0px;
+  }
+  section.new-dentist-wrapper {
+    padding-bottom: 0px;
+  }
+  .sub-title-heding-text h2 span {
+    font-size: 35px;
+  }
+  .sub-title-heding-text h2 {
+    font-size: 50px;
+    line-height: 71px;
+    padding-top: 40px;
+  }
+  .testomonail-heding h2 {
+    font-size: 31px;
+  }
+  div#navbarSupportedContent {
+    position: absolute;
+    width: 95%;
+    top: 70px;
+  }
+  .sub-title-heding-text.textt {
+    padding-top: 0px;
+  }
+  .schedule-heding h2 {
+    line-height: 35px;
+  }
+  .visit-image-wrapper img {
+     padding-top: 30px;
+  }
+  section.new-dentist-wrapper {
+    padding-top: 0px;
+    padding-bottom: 20px;
+ }
+}
+@media (max-width: 768px) {
+  ul.navbar-nav {
+    gap: 21px;
+    text-align: center;
+  }
+  .dental-heding h1 {
+    font-size: 37px;
+    line-height: 51px;
+  }
+  .health-heding h2 {
+    font-size: 35px;
+    line-height: 49px;
+  }
+  .health-heding h2 span {
+    font-size: 49px;
+  }
+  .sub-title-heding-text h2 {
+     font-size: 25px;
+     line-height: 32px;
+     padding-top: 40px;
+  }
+  .schedule-heding h2 {
+    font-size: 25px;
+  }
+  .schedule-heding h2 span {
+    font-size: 25px;
+  }
+  .education-awards h2 {
+    font-size: 23px;
+    line-height: 45px;
+  }
+  .dental-service-first-col,
+  .dental-service-second-col,
+  .dental-service-third-col {
+    margin-top: 0;
+  }
+  .card-certification-first,
+  .card-certification-second,
+  .card-certification-third {
+    margin-top: 0;
+  }
+  .spcing {
+    padding-top: 159px;
+    padding-bottom: 130px;
+  }
+  .banner-image img {
+    width: 100%;
+    height: 420px;
+    object-fit: contain;
+    margin-top: 20px;
+  }
+  section.new-dentist-wrapper {
+    padding-top: 0px;
+    padding-bottom: 16px;
+  }
+  .dentist-image img {
+    width: 100%;
+    height: 538px;
+    margin-top: 15px;
+  }
+  .insurance-image img {
+    width: 100%;
+    margin-top: 39px;
+    border-radius: 21px;
+    height: 330px;
+    object-fit: cover;
+  }
+  .first-image img,
+  .second-image img {
+    margin: 0 0 0 0;
+  }
+  .question h2 {
+    padding-bottom: 0px;
+    margin-top: 15px;
+  }
+  button.btn.btn-dark.visit {
+    margin-top: 16px;
+    font-size: 13px;
+  }
+  iframe {
+    width: 90%;
+    height: 70vh;
+  }
+  footer {
+    padding: 19px;
+  }
+  .footer-logo {
+    height: auto;
+    width: 47%;
+    margin: 0;
+  }
+  .logo-img {
+    width: 20%;
+  }
+  .visit-image-wrapper {
+    width: 100%;
+  }
+  .about-your {
+    text-align: center;
+    margin-top: 29px;
+  }
+  section.visit-wrapper {
+    padding-top: 0px;
+  }
+  .accepting-name h2 {
+    font-size: 34px;
+  }
+  .dental-heding h1 {
+    padding-bottom: 10px;
+  }
+  .sub-title-heding h2 span {
+    font-size: 51px;
+    font-weight: 500;
+    color: black;
+  }
+  .sub-title-heding h2 {
+    text-align: center;
+    font-size: 25px;
+    line-height: 45px;
+    font-family: "peachi";
+  }
+  .sub-title-heding-text h2 span {
+    font-size: 30px;
+    line-height: 53px;
+    color: #0c7d8c;
+  }
+  section.schedule-wrapper {
+    padding-bottom: 60px;
+  }
+  section.health-wrapper {
+    padding-bottom: 0px;
+    margin-top: 0px;
+  }
+  .header-logo {
+    max-width: 69px;
+    height: auto;
+  }
+  .new-dentist-wrapper {
+    background: url(../image/background.svg);
+    background-repeat: no-repeat;
+    background-size: 1530%;
+    background-position: center;
+  }
+  .certifications-wrapper {
+    background: url(../image/background.svg);
+    background-repeat: no-repeat;
+    background-size: 1500%;
+    background-position: center;
+  }
+  section.certifications-wrapper {
+    padding-bottom: 90px;
+    margin-top: 40px;
+    padding-top: 0px;
+  }
+  .accepting-name h2 {
+    font-size: 25px;
+    line-height: 53px;
+  }
+  section.conveniently-located-wrapper {
+    margin-top: 50px;
+  }
+  .sub-title-heding-text.textt {
+    padding-top: 0px;
+  }
+  .certificaton {
+    padding-top: 10px;
+  }
+  section.accepting-insurance-wrapper {
+    padding-top: 0px;
+  }
+  section.client-testimonial-wrapper {
+    margin-top: 0px;
+  } 
+}
+@media (max-width: 575px) {
+  p {
+    font-size: 16px;
+  }
+  section.visit-wrapper {
+    padding-top: 0px;
+  }
+  .health-heding h2 {
+    font-size: 38px;
+    line-height: 51px;
+  }
+  .health-heding h2 span {
+    font-size: 54px;
+  }
+  .testomonail-heding h2 {
+    font-size: 19px;
+    padding-top: 10px;
+    color: white;
+    font-family: "peachi";
+  }
+  .accepting-name h2 {
+    font-size: 20px;
+    line-height: 53px;
+  }
+  .sub-titlee {
+    margin: 0 auto;
+    margin-top: 28px;
+  }
+  .testomonail-heding {
+    text-align: center;
+  }
+  .insurance-deteils h5 {
+    padding-top: 30px;
+  }
+  div#swiper-bundle {
+    position: absolute;
+    width: 100%;
+    top: 115%;
+    left: 0;
+    z-index: 9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    gap: 185px;
+    padding-top: 14px;
+  }
+}
+@media (max-width: 480px) {
+  p {
+    font-size: 14px !important;
+  }
+  .text-effect::after {
+    top: -21px;
+    right: -89px;
+  }
+  .schedule-heding h2 {
+    font-size: 25px;
+    line-height: 39px;
+  }
+  .routine-text p {
+    padding-top: 0px;
+    color: #0c7d8c;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  .dental-car {
+    height: 72px;
+    aspect-ratio: 1;
+  }
+  .routine-text h3 {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "peachi";
+  }
+  .certificaton-card img {
+    width: 100%;
+  }
+  .spcing {
+    padding-top: 122px;
+    padding-bottom: 130px;
+  }
+  .banner-image img {
+    margin-top: 46px;
+  }
+  .dental-heding {
+    padding-top: 69px;
+  }
+}
+
